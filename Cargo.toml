@@ -1,0 +1,13 @@
+[package]
+name = "solana-tx-decoder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.54", features = ["derive"] }
+solana-client = "2.1"
+solana-sdk = "2.3"
+solana-transaction-status = "2.1"
+tokio = { version = "1.49.0", features = ["full"] }
+bs58 = "0.5"
